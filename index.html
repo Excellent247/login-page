@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 3 Tasks: Using HTML and CSS</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <div class="right-index-content">
+          <div class="empty-div">
+            
+          </div>
+          <div class="top-left-content">
+            <h3>Welcome page</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
+            consequatur, molestias delectus veritatis ipsa doloribus a adipisci
+            provident aperiam recusandae libero dolorem. Sit sint nihil, quidem
+            aperiam eveniet laudantium perferendis.
+          </p>
+          </div>
+          <div class="social-container">
+            <p>Connect with us:</p>
+            <div class="social-icons">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-google"></a>
+            </div>
+          </div>
+        </div>
+        <div class="left-index-content">
+          <h3>Sign Up</h3>
+          <form action="/register.html" method="get">
+            <!-- <label for="fname">First name:</label> <br> -->
+            <input type="text" id="fname" name="fname" placeholder="First name" required/><br>
+            <!-- <label for="lname">Last name:</label><br> -->
+            <input type="text" id="lname" name="lname" placeholder="Last name" required/><br>
+            <!-- <label for="phonenumber">Phone Number:</label><br> -->
+            <input type="tel" id="phonenumber" name="phonenumber" placeholder="Phone Number" required /><br>
+            <!-- <label for="Remail">Email Address</Address>:</label><br> -->
+            <input type="email" id="Remail" name="Remail" placeholder="Email Address" required/><br>
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" /><br>
+            <label for="favcolor">Favorite Color:</label>
+            <input type="color" id="favcolor" name="favcolor" /><br>
+            <!-- <input type="checkbox" name="" id=""> -->
+            <!-- <label for="checkbox">I agree to these <a href="#">Terms of Services</a> and <a href="#">Privacy Policy</label> -->
+            <p>You are agreeing to these <a href="#">Terms of Services</a><br> and <a href="#">Privacy Policy</a></p>
+            <input class="submitbtn" type="submit" value="Submit" /><button></button>
+          </form>
+          <p>Already a member? <a href="/login.html">Sign in</a></p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(99, 0, 0);
+    font-family: Georgia, Times, serif, sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    height: 100vh;
+}
+.main-container{
+    background-color: rgb(209, 207, 236);
+    display: flex;
+    align-content: center;
+    border-radius: 10px;
+}
+.empty-div{
+    height: 50%;
+}
+.top-left-content{
+    text-align: center;
+}
+.top-left-content h3{
+    margin: 2rem;
+}
+.right-index-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 2rem;
+    margin: 1rem;
+    background-image: url(/istockphoto-1130251109-612x612.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+}
+.left-index-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 2rem;
+}
+input, select{
+    padding: 10px;
+    border: none;
+    margin: 10px 0px;
+    border-radius: 5px;
+    
+}
+#lname, #fname, #phonenumber, #Remail, .submitbtn{
+    width: 100%;
+}
+form p{
+    font-family: Verdana, sans-serif;
+    font-size: 0.6em;
+}
+.submitbtn{
+    background-color: #0040ff;
+    color: white;
+}
+
+/* social media button style */
+.social-container{
+    margin-top: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.social-icons{
+    margin-top: 1em;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 2.5em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;}
+    
+.fa-google {
+        background: #bb0000;
+        color: white;}
+/* Login page */
+.login-form{
+    background-color: rgb(209, 207, 236);
+    padding: 5rem;
+    border-radius: 10px;
+}
+.login-form input{
+    width: 100%;
+}
+.login-form .login-button{
+    background-color: #0040ff;
+    color: white;
+}
