@@ -16,7 +16,7 @@ main{
     height: 100vh;
 }
 .main-container{
-    background-color: rgb(209, 207, 236);
+    background-color: rgb(89, 86, 131);
     display: flex;
     align-content: center;
     border-radius: 10px;
@@ -27,8 +27,13 @@ main{
 .top-left-content{
     text-align: center;
 }
-.top-left-content h3{
+.top-left-content h2{
     margin: 2rem;
+}
+.top-left-content p {
+    
+    padding: 0.5rem;
+    background-color: black;
 }
 .right-index-content{
     display: flex;
@@ -38,7 +43,7 @@ main{
     width: 50%;
     padding: 2rem;
     margin: 1rem;
-    background-image: url(/istockphoto-1130251109-612x612.jpg);
+    background-image: url(./profile_pic.jpg);
     background-size: cover;
     border-radius: 10px;
     color: white;
@@ -49,6 +54,7 @@ main{
     flex-direction: column;
     width: 50%;
     padding: 2rem;
+    color:whitesmoke;
 }
 input, select{
     padding: 10px;
